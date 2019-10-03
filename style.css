@@ -72,7 +72,6 @@ body, html {
 /*end css khoitt1*/
 
 /*css kinh nghiem*/
-*{padding: 0; margin: 0}
 
 .khoittnho {
     margin: 55px 0;
@@ -124,6 +123,15 @@ h2.tieudecap2 {
 
 
 /*end css kinhnghiem*/
+
+/*css comment fb*/
+*{padding: 0; margin: 0}
+
+.khoicomment {
+    text-align: center;
+}
+
+/*end css comment fb*/
 
 
 

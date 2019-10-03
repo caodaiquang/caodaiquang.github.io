@@ -8,7 +8,6 @@ li.nav-item {
 /*end css menutop*/
 
 /*css khoitt1*/
-*{padding: 0; margin: 0}
 
 a.nut2.btn.btn-primary {
     width: 180px;
@@ -24,9 +23,9 @@ a.nut2.btn.btn-primary {
     margin-bottom: 27px;
 }
 
-img {}
-
-.tt {padding-top: 7%;}
+.tt {
+	padding-top: 7%;
+}
 .tt h2{
 	color:white;
 }
@@ -72,6 +71,60 @@ body, html {
 
 /*end css khoitt1*/
 
+/*css kinh nghiem*/
+*{padding: 0; margin: 0}
+
+.khoittnho {
+    margin: 55px 0;
+}
+
+.khoittnho h3 {
+    font-size: 20px;
+    color: #e35855;
+}
+
+.khoittnho {
+}
+
+.tieudecap2 span {
+    font-weight: bold;
+    /* text-transform: uppercase; */
+}
+
+h2.tieudecap2 {
+    font-weight: normal;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+    font-size: 23px;
+    margin-bottom: 51px;
+}
+
+.tieudeto h1 {
+    text-transform: uppercase;
+    font-size: 33px;
+}
+
+.col-sm-12.tieudeto {
+}
+
+.khoittnho {
+}
+
+.col-sm-4.cot1_3 {
+    text-align: right;
+}
+.col-sm-4.cot1_3, .col-sm-4.cot3_3 {
+	margin-top: 49px;
+}
+
+.col-sm-12.tieudeto {
+    text-align: center;
+    margin-top: 71px;
+}
+
+
+/*end css kinhnghiem*/
+
 
 
 
@@ -111,7 +164,6 @@ a.navbar-branch {
 	/*end css menu top di dong*/
 
 	/*css khoitt*/
-	*{}
 
 a.nut2.btn.btn-primary {
     width: 135px;
@@ -130,5 +182,54 @@ a.nut2.btn.btn-primary {
 }
 
 	/*end css khoitt*/
+
+	/*css di dong kinhnghiem*/
+	*{}
+
+.khoittnho {}
+
+span.ttthem {
+}
+
+.khoittnho span {
+}
+
+.khoittnho h3 {
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+.col-sm-4.cot3_3 {
+    text-align: center;
+}
+
+.col-sm-4.cot2_3 {
+    text-align: center;
+}
+
+.khoittnho {
+    margin: 0 0 29px 0;
+}
+
+h2.tieudecap2 {
+    margin-top: -37px !important;
+    font-size: 20px;
+}
+
+.tieudeto h1 {
+    font-size: 26px;
+}
+
+.col-sm-12.tieudeto {
+    padding: 0;
+    margin-top: 15px;
+}
+
+.col-sm-4.cot1_3 {
+    text-align: center;
+    padding: 0px 39px;
+}
+
+	/*end css di dong kinhnghiem*/
 }
 													/*END CSS DI DONG*/

@@ -46,7 +46,16 @@ img {}
     position: relative;
 }
 
-.khoitt1:before {content: "";position: absolute;left: 0;top: 0;width: 50%;height: 100%;background: #e4555b;z-index: 1;}
+.khoitt1:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background: #e4555b;
+	z-index: 1;
+}
 
 body, html {
     width: 100%;
@@ -79,7 +88,6 @@ body, html {
 @media(max-width: 576px){
 
 	/*css menutop di dong*/
-	*{}
 
 li.nav-item {
 	background: #00857f8a;
@@ -101,11 +109,26 @@ a.navbar-branch {
 }
 
 	/*end css menu top di dong*/
+
+	/*css khoitt*/
+	*{}
+
+a.nut2.btn.btn-primary {
+    width: 135px;
+    border-radius: 20px;
 }
 
+.tt h2 {
+    font-size: 25px;
+    padding-top: 0px;
+}
 
+.tt img {
+    width: 196px;
+    margin-top: 26px;
+    margin-bottom: 10px !important;
+}
 
-
-
-
+	/*end css khoitt*/
+}
 													/*END CSS DI DONG*/

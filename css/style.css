@@ -339,11 +339,11 @@ Responsive media queries
 
  /*css dichvu3*/
 
-.dichvus p {
+/*.dichvus p {
     font-size: 14px;
     line-height: 24px;
     text-align: center;
-}   
+}  */ 
 
 .dichvus h3 a {
     font-size: 25px;
@@ -356,8 +356,6 @@ Responsive media queries
 }
 
 .dichvus {
-  width: 100%;
-  /*margin-top: 75px; */
   background-color: #f0f1e9;
 }
 .col-sm-4.menudv2 h1, .col-sm-4.menudv3 h1 {
@@ -387,12 +385,9 @@ Responsive media queries
     padding: 0;
 }
 
-.chumenu div.col-sm-2, .chumenu2 div.col-sm-2, .chumenu3 div.col-sm-2 {
+/*.chumenu div.col-sm-2, .chumenu2 div.col-sm-2, .chumenu3 div.col-sm-2 {
     margin-right: -26px;
-}
-
-.chumenu {
-}
+}*/
 
 .chumenu3 {
     padding-top: 58px;
@@ -425,21 +420,11 @@ Responsive media queries
     letter-spacing: 0px;
 }
 
-.row.row4 {
+.row.row4, .row.row3, .row.row2, .row.row1  {
     padding-bottom: 33px;
+    margin: 0;
 }
 
-.row.row3 {
-    padding-bottom: 33px;
-}
-
-.row.row2 {
-    padding-bottom: 33px;
-}
-
-.row.row1 {
-    padding-bottom: 33px;
-}
 
 
 .row.row1 h3 {
@@ -462,7 +447,7 @@ Responsive media queries
 
 .chumenu {padding-top: 58px;color: #e7e1d6;}
 
-  @media (max-width: 576px) {
+ /* @media (max-width: 576px) {
       .dichvus p {
         font-size: 12px;
     }
@@ -471,7 +456,7 @@ Responsive media queries
         font-size: 18px;
     }
   }
-
+*/
 
  /*end css dichvu3*/
 

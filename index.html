@@ -1,143 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>Cao Dai Quang</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400&display=swap&subset=vietnamese" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-	<script type="text/javascript" src="1.js"></script>
-
-	<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pizza</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400&display=swap&subset=vietnamese" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap&subset=vietnamese" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap&subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fira+Sans|Roboto:300,400|Questrial|Satisfy">
+  <link rel="stylesheet" type="" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" type="" href="css/animate.css"> -->
+  <link rel="stylesheet" type="" href="css/style.css">
 </head>
-<body>	
 
-	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v4.0&appId=400250360591385&autoLogAppEvents=1"></script>
+<body>
 
-	
-	<div class="menutop">
-		<nav class="navbar navbar-expand-md navbar-light bg-light">
-			<div class="container">
-				<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#iconmenu">
-					<span class="navbar-toggler-icon"></span>
+  <!-- header -->
+  <div class="header">
+    <div class="bg-color">
+      <header id="main-header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#dropMenu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img src="./img/pizza4-logo.png" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="dropMenu">
+              <ul class="nav navbar-nav navbar-right navbar-border">
+                <li class="active"><a href="#main-header">Trang Chủ</a></li>
+                <li><a href="#about">Thực Đơn</a></li>
+                <li><a href="#portfolio">Sản Phẩm</a></li>
+                <li><a href="#testimonial">Phản Hồi</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
 
-				</button>
+      <!-- text slide -->
+      <div class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 wow fadeIn delay-05s">
+              <div class="banner-text">
+                <h2>Hi, I am <span>Ryan</span></h2>
+                <p>Everyday fresh meals</p>
+              </div>
+              <!-- end text slide -->
 
-				<div class="collapse navbar-collapse" id="iconmenu">
-					<a href="#" class="navbar-branch">
-						<img src="./images/gg.png" alt="" height="50px">
-					</a>
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="#">Giới Thiệu</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link kn" href="#">Kinh Nghiệm</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link sp" href="#">Sản Phẩm</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Liên Hệ</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link phanhoi" href="#">Phản Hồi</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</div>
+              <!-- icon dropdown -->
+              <div class="icondrop  text-center">
+                <a href="#about"><i class="fa fa-angle-down"></i></a>
+              </div>
+              <!-- end icon dropdown -->
 
-	<div class
-	="khoitt1">
-	<div class="tt">
-		<div class="container text-xs-center">
-			<img src="./images/avt.jpg" alt="">
-			<h2>Cao Đại Quang</h2>
-			<a class="nut2 btn btn-primary" href="#">Liên Hệ</a>
-		</div>
-	</div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-</div> <!-- het khoitt -->
+    </div>
+    <!-- end bg-color -->
 
-<div class="kinhnghiem" id="edu">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 tieudeto">
-				<h1>Kinh nghiệm & Quá trình học</h1>
-			</div>
-			<div class="col-sm-4 cot1_3">
-				<h2 class="tieudecap2">
-					Quá trình <span>học</span>
-				</h2>
-				<div class="khoittnho">
-					<h3>Trường THPT Nhị Chiểu</h3>
-					<span class="ttthem">Liên Khóa 2013-2016</span>
-				</div>
-				<div class="khoittnho">
-					<h3>Học Viện Kỹ Thuật Quân Sự (MTA)</h3>
-					<span class="ttthem">Liên Khóa 2016-2021</span>
-					<p>Chuyên Ngành : Cơ điện tử khoa hàng không vũ trụ</p>
-				</div>
-				<div class="khoittnho">
-					<h3>Đại Học Kinh Doanh Công Nghệ</h3>
-					<span class="ttthem">Liên Khóa 2018-2022</span>
-					<p>Chuyên Ngành : Công nghệ thông tin (kỹ nghệ phần mềm)</p>
-				</div>
+  </div>
+  <!-- end .hearder -->
+<div class="dichvus">
+    <div class="container" id="about">
+      
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 menudv1">
+              <div class="chumenu">
+                <h1 class="abril">
+                  The best pizza
+                  & pasta
+                </h1>
+                <div class="row row1">
+                  <div class="col-sm-2">
+                    <img src="./img/ul.png" alt="">
+                  </div>
+                  <div class="col-sm-10">
+                    <h3>
+                      Margarita
+                    </h3>
+                    <span>Sauce, Italian cheese
+                    </span>
+                  </div>
+                </div>
+                <div class="row row2">
+                  <div class="col-sm-2">
+                    <img src="./img/ul.png" alt="">
+                  </div>
+                  <div class="col-sm-10">
+                    <h3>
+                      Spinachi
+                    </h3>
+                    <span>Sauce, Italian cheese, spinachi, onion
+                    </span>
+                  </div>
+                </div>
+                <div class="row row3">
+                  <div class="col-sm-2">
+                    <img src="./img/ul.png" alt="">
+                  </div>
+                  <div class="col-sm-10">
+                    <h3>
+                      Picanta Especiale
+                    </h3>
+                    <span>Sauce, Italian cheese, spicy ham
+                    </span>
+                  </div>
+                </div>
+                <div class="row row4">
+                  <div class="col-sm-2">
+                    <img src="./img/ul.png" alt="">
+                  </div>
+                  <div class="col-sm-10">
+                    <h3>
+                      Di Amore
+                    </h3>
+                    <span>Sauce, Italian cheese, tomato, love
+                    </span>
+                  </div>
+                </div>
+              </div> <!-- end chumenu -->
+              <div>
+                <!-- <img src="./img/menu1.jpg" alt="" class="img-fluid"> -->
+              </div>
+            </div>
+            <div class="col-sm-4 menudv2">
+              <div class="chumenu2">
+                <h1 class="abril">
+                  The best pizza
+                  & pasta
+                </h1>
+                <div class="row row1">
+                  <div class="col-sm-2">
+                    <img src="./img/ul2.png" alt="">
+                  </div>
+                  <div class="col-sm-10">
+                    <h3>
+                      Margarita
+                    </h3>
+                    <span>Sauce, Italian cheese
+                    </span>
+                  </div>
+                </div>
+                <div class="row row2">
+                  <div class="col-sm-2">
+                    <img src="./img/ul2.png" alt="">
+                  </div>
+                  <div class="col-sm-10">
+                    <h3>
+                      Spinachi
+                    </h3>
+                    <span>Sauce, Italian cheese, spinachi, onion
+                    </span>
+                  </div>
+                </div>
+                <div class="row row3">
+                  <div class="col-sm-2">
+                    <img src="./img/ul2.png" alt="">
+                  </div>
+                  <div class="col-sm-10">
+                    <h3>
+                      Picanta Especiale
+                    </h3>
+                    <span>Sauce, Italian cheese, spicy ham
+                    </span>
+                  </div>
+                </div>
+                <div class="row row4">
+                  <div class="col-sm-2">
+                    <img src="./img/ul2.png" alt="">
+                  </div>
+                  <div class="col-sm-10">
+                    <h3>
+                      Di Amore
+                    </h3>
+                    <span>Sauce, Italian cheese, tomato, love
+                    </span>
+                  </div>
+                </div>
+              </div> <!-- end chumenu -->
 
+              <!-- <a href=""><img src="img/menu2.jpg" alt="" class="img-fluid"></a>  -->
+            </div>
+            <div class="col-sm-4 menudv3">
+              <div class="chumenu3">
+                <h1 class="abril">
+                  The best pizza
+                  & pasta
+                </h1>
+                <div class="row row1">
+                  <div class="col-sm-2">
+                    <img src="./img/ul.png" alt="">
+                  </div>
+                  <div class="col-sm-10">
+                    <h3>
+                      Margarita
+                    </h3>
+                    <span>Sauce, Italian cheese
+                    </span>
+                  </div>
+                </div>
+                <div class="row row2">
+                  <div class="col-sm-2">
+                    <img src="./img/ul.png" alt="">
+                  </div>
+                  <div class="col-sm-10">
+                    <h3>
+                      Spinachi
+                    </h3>
+                    <span>Sauce, Italian cheese, spinachi, onion
+                    </span>
+                  </div>
+                </div>
+                <div class="row row3">
+                  <div class="col-sm-2">
+                    <img src="./img/ul.png" alt="">
+                  </div>
+                  <div class="col-sm-10">
+                    <h3>
+                      Picanta Especiale
+                    </h3>
+                    <span>Sauce, Italian cheese, spicy ham
+                    </span>
+                  </div>
+                </div>
+                <div class="row row4">
+                  <div class="col-sm-2">
+                    <img src="./img/ul.png" alt="">
+                  </div>
+                  <div class="col-sm-10">
+                    <h3>
+                      Di Amore
+                    </h3>
+                    <span>Sauce, Italian cheese, tomato, love
+                    </span>
+                  </div>
+                </div>
+              </div> <!-- end chumenu -->
 
-			</div> <!-- het cot1_3 -->
-			<div class="col-sm-4 cot2_3">
-				<img src="./images/nen4.png" alt="img-fluid" width="330px">
-			</div>
-			<div class="col-sm-4 cot3_3">
-				<h2 class="tieudecap2">
-					Quá trình <span>Làm Việc</span>
-				</h2>
-				<div class="khoittnho">
-					<h3>Trường THPT Nhị Chiểu</h3>
-					<span class="ttthem">Liên Khóa 2013-2016</span>
-				</div>
-				<div class="khoittnho">
-					<h3>Học Viện Kỹ Thuật Quân Sự (MTA)</h3>
-					<span class="ttthem">Liên Khóa 2016-2021</span>
-					<p>Chuyên Ngành : Cơ điện tử khoa hàng không vũ trụ</p>
-				</div>
-				<div class="khoittnho">
-					<h3>Đại Học Kinh Doanh Công Nghệ</h3>
-					<span class="ttthem">Liên Khóa 2018-2022</span>
-					<p>Chuyên Ngành : Công nghệ thông tin (kỹ nghệ phần mềm)</p>
-				</div>
-			</div> <!-- het cot1_3 -->
+              <!-- <a href=""><img src="img/menu3.jpg" alt="" class="img-fluid"></a> -->
+            </div>
 
-		</div>
-	</div>
-</div> <!-- end kinhnghiem -->
+          </div>
+        </div>
+      </div> <!-- end dich vu --> 
+    
+  </div>
+  <section id="portfolio" class="section-padding wow fadeInUp delay-05s">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="title text-center">Let's <span class="deco">See</span> My Work</h2>
+        </div>
+        <div class="col-md-12">
+          <div id="myGrid" class="grid-padding">
+            <div class="col-md-4 col-sm-4 padding-right-zero">
+              <img src="https://themes.muffingroup.com/be/pizza4/wp-content/uploads/2019/05/pizza-guy.jpg" class="img-responsive">
+              <img src="https://themes.muffingroup.com/be/pizza4/wp-content/uploads/2019/05/gallery-1.jpg" class="img-responsive">
+              <img src="https://themes.muffingroup.com/be/pizza4/wp-content/uploads/2019/05/gallery-2.jpg" class="img-responsive">
+              <img src="https://themes.muffingroup.com/be/pizza4/wp-content/uploads/2019/05/gallery-4.jpg" class="img-responsive">
+            </div>
+            <div class="col-md-4 col-sm-4 padding-right-zero">
+              <img src="https://themes.muffingroup.com/be/pizza4/wp-content/uploads/2019/05/gallery-5.jpg" class="img-responsive">
+              <img src="https://themes.muffingroup.com/be/pizza4/wp-content/uploads/2019/05/gallery-3.jpg" class="img-responsive">
+              <img src="https://themes.muffingroup.com/be/pizza4/wp-content/uploads/2019/05/family-dinner.jpg" class="img-responsive">
+              <img src="./img/menu4.jpg" class="img-responsive">
+              <img src="img/port03.jpg" class="img-responsive">
+            </div>
+            <div class="col-md-4 col-sm-4 padding-right-zero">
+              <img src="https://themes.muffingroup.com/be/pizza4/wp-content/uploads/2019/05/gallery-3.jpg" class="img-responsive">
+              <img src="https://themes.muffingroup.com/be/pizza4/wp-content/uploads/2019/05/family-dinner.jpg" class="img-responsive">
+              <img src="img/menu2.jpg" class="img-responsive">
+              <img src="img/menu1.jpg" class="img-responsive">
+              <img src="img/portfolio02.jpg" class="img-responsive">
+              <img src="https://themes.muffingroup.com/be/pizza4/wp-content/uploads/2019/05/pizza-guy.jpg" class="img-responsive">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  
+  <section id="testimonial" class="section-padding wow fadeInUp">
+    <div class="container">
+      <div class="row">
+        <h2 class="title text-center">See What Our <span class="deco">Client</span> Are Saying ?</h2>
+        <div class="test-sec">
+          <div class="col-sm-4">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamsed commodo nibh ante facilisis bibendum dolor feugiat at. </p>
+            </blockquote>
+            <div class="carousel-info">
+              <div class="pull-left"> <span class="testimonials-name">John Doe</span> <span class="testimonials-post">CEO,  Company Inc.</span> </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamsed commodo nibh ante facilisis bibendum dolor feugiat at. </p>
+            </blockquote>
+            <div class="carousel-info">
+              <div class="pull-left"> <span class="testimonials-name">John Doe</span> <span class="testimonials-post">CEO,  Company Inc.</span> </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamsed commodo nibh ante facilisis bibendum dolor feugiat at. </p>
+            </blockquote>
+            <div class="carousel-info">
+              <div class="pull-left"> <span class="testimonials-name">John Doe</span> <span class="testimonials-post">CEO,  Company Inc.</span> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<div class="khoicomment" id="phanhoii">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="phanhoi">Phản Hồi</h1>
+  <!-- want to hire me -->
 
-				<div class="commentfb">
-					<div class="fb-comments" data-href="https://caodaiquang.github.io/" data-width="576" data-numposts="5"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+  <section id="contact" class="section-padding wow fadeIn delay-05s">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="contact-sec text-center">
+            <h2>Contact <span class="deco">To</span> Me?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          </div>
+        </div>
 
-</body>
-</html>
+        <div class="col-md-8 col-md-push-2">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
 
+            <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- end want to hire me -->
+  <footer>
+    <div class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 logofooter">
+            <img src="./img/pizza4-logo.png" alt="">
+          </div>
+          <div class="col-lg-3 col-sm-2 col-xs-3">
+            <h3> Contact </h3>
+            <ul>
+              <li><a class="email"href="#"> insert email here </a></li>
+              <br/>
+              <li> <p> address line one </p> </li>
+              <li> <p> address line two </p> </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-2 col-xs-3">
+            <ul>
+              <li> <h5> <a href="#" style="margin-top: 5em"> ABOUT US</a> <h5></li>
+                <li> <h5><a href="#"> CURRENT SERIES </a> <h5></li>
+                  <li> <h5><a href="#"> THE HOUSE </a> <h5></li>
+                    <li> <h5><a href="#"> LOOKING BACK </a> <h5></li>
+                    </ul>
+                  </div>
+
+                  <!--/.row--> 
+                </div>
+                <!--/.container--> 
+              </div>
+              <!--/.footer-->
+
+              <div class="footer-bottom">
+                <div class="container">
+                  <p class="pull-left copyright"> Copyright © Footer 2014. All right reserved. </p>
+
+                </div>
+              </div>
+              <!--/.footer-bottom--> 
+
+            </footer>
+
+            <script src="js/jquery.min.js"></script>
+            <script src="js/jquery.easing.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/jquery.bxslider.min.js"></script>
+            <script src="js/wow.js"></script>
+            <script src="js/custom.js"></script>
+            <script src="contactform/contactform.js"></script>
+
+          </body>
+
+          </html>

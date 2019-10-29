@@ -1,4 +1,9 @@
 
+.fontroboto{font-family: 'Roboto Slab', serif;}
+.fontoswald{font-family: 'Oswald', sans-serif;}
+.dancing{font-family: 'Dancing Script', cursive;}
+.abril{font-family: 'Abril Fatface', cursive;}
+
 body {
   line-height: 1.4;
   font-family: 'Roboto', sans-serif;
@@ -47,9 +52,9 @@ body {
 }
 
 @media (max-width: 768px) {
-	.navbar-collapse {
-		background: rgba(50, 60, 70, 0.9);
-	}
+  .navbar-collapse {
+    background: rgba(50, 60, 70, 0.9);
+  }
 }
 
 .top-nav-collapse {
@@ -447,31 +452,22 @@ Responsive media queries
 
 .chumenu {padding-top: 58px;color: #e7e1d6;}
 
- /* @media (max-width: 576px) {
-      .dichvus p {
-        font-size: 12px;
-    }
+.menudv1 a img{
+  widows: 50px;
+}
+*{margin: 0;padding: 0;}
 
-    .dichvus h3 a {
-        font-size: 18px;
-    }
-  }
-*/
+.chuphanmenu.text-center {
+    color: #3e672f;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid;
+}
 
- /*end css dichvu3*/
 
 
- /*footer 2*/
 
-/* .full {
-    width: 100%;    
-}*/
-/*.gap {
-  height: 30px;
-  width: 100%;
-  clear: both;
-  display: block;
-}*/
+
 .footer {
   background: #3c3d41;
   height: auto;
@@ -544,18 +540,18 @@ Responsive media queries
   text-decoration:none;
   font-weight: bold;
 }
-.supportLi h4 {
+/*.supportLi h4 {
   font-size: 20px;
   font-weight: lighter;
   line-height: normal;
   margin-bottom: 0 !important;
   padding-bottom: 0;
-}
+}*/
 
-.bg-gray {
+/*.bg-gray {
   background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
   box-shadow: 0 1px 0 #B4B3B3;
-}
+}*/
 
 }
 .footer a {
@@ -572,8 +568,4 @@ Responsive media queries
   padding-top: 6px;
   font-size: 0.75em
 }
-
-
-
-
 

@@ -1,5 +1,7 @@
 (function($) {
 
+
+
   // Init Wow
   wow = new WOW({
     animateClass: 'animated',
@@ -10,6 +12,7 @@
   $(".navbar-collapse a").on('click', function() {
     $(".navbar-collapse.collapse").removeClass('in');
   });
+
 
   // Navigation scrolls
   $('.navbar-nav li a').bind('click', function(event) {
@@ -25,6 +28,8 @@
       event.preventDefault();
     }
   });
+
+
    //jQuery to collapse the navbar on scroll
   $(window).scroll(function() {
     if ($(".navbar-default").offset().top > 80) {
@@ -33,6 +38,8 @@
       $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
   });
+
+
 
   // icondrop section scroll
   $(".icondrop a").on('click', function(event) {
